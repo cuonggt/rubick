@@ -1,5 +1,7 @@
 # Rubick
 
+The official Ruby on Rails local development environment. Thanks to [Laravel Homestead](https://github.com/laravel/homestead).
+
 - [Introduction](#introduction)
 - [Installation & Setup](#installation-and-setup)
     - [First Steps](#first-steps)
@@ -27,7 +29,7 @@ Rubick is an official, pre-packaged Vagrant box that provides you a wonderful de
 
 Rubick runs on any Windows, Mac, or Linux system, and includes the Nginx web server, Ruby 2.4, MySQL, Postgres, Redis, Memcached, Node, and all of the other goodies you need to develop amazing Ruby applications.
 
-> {note} If you are using Windows, you may need to enable hardware virtualization (VT-x). It can usually be enabled via your BIOS. If you are using Hyper-V on a UEFI system you may additionally need to disable Hyper-V in order to access VT-x.
+> If you are using Windows, you may need to enable hardware virtualization (VT-x). It can usually be enabled via your BIOS. If you are using Hyper-V on a UEFI system you may additionally need to disable Hyper-V in order to access VT-x.
 
 <a name="included-software"></a>
 ### Included Software
@@ -201,7 +203,7 @@ A `rubick` database is configured for both MySQL and Postgres out of the box.
 
 To connect to your MySQL or Postgres database from your host machine's database client, you should connect to `127.0.0.1` and port `33060` (MySQL) or `54320` (Postgres). The username and password for both databases is `rubick` / `secret`.
 
-> {note} You should only use these non-standard ports when connecting to the databases from your host machine. You will use the default 3306 and 5432 ports in your Rails database configuration file since Rails is running _within_ the virtual machine.
+> You should only use these non-standard ports when connecting to the databases from your host machine. You will use the default 3306 and 5432 ports in your Rails database configuration file since Rails is running _within_ the virtual machine.
 
 <a name="adding-additional-sites"></a>
 ### Adding Additional Sites
@@ -257,7 +259,7 @@ After running the command, you will see an Ngrok screen appear which contains th
 
     share rubick.app -region=eu -subdomain=laravel
 
-> {note} Remember, Vagrant is inherently insecure and you are exposing your virtual machine to the Internet when running the `share` command.
+> Remember, Vagrant is inherently insecure and you are exposing your virtual machine to the Internet when running the `share` command.
 
 <a name="network-interfaces"></a>
 ## Network Interfaces
