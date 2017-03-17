@@ -16,7 +16,7 @@
     "sites": [
         {
             "map": "rubick.app",
-            "to": "/home/vagrant/Code/Rubick"
+            "to": "/home/vagrant/Code/Rubick/public"
         }
     ],
     "databases": [
