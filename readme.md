@@ -1,6 +1,6 @@
 # Rubick
 
-The official Ruby on Rails local development environment. Thanks to [Laravel Homestead](https://github.com/laravel/homestead).
+The Ruby on Rails local development environment. Thanks to [Laravel Homestead](https://github.com/laravel/homestead).
 
 - [Introduction](#introduction)
 - [Installation & Setup](#installation-and-setup)
@@ -26,7 +26,7 @@ The official Ruby on Rails local development environment. Thanks to [Laravel Hom
 
 [Vagrant](https://www.vagrantup.com) provides a simple, elegant way to manage and provision Virtual Machines.
 
-Rubick is an official, pre-packaged Vagrant box that provides you a wonderful development environment without requiring you to install Ruby, a web server, and any other server software on your local machine. No more worrying about messing up your operating system! Vagrant boxes are completely disposable. If something goes wrong, you can destroy and re-create the box in minutes!
+Rubick is a pre-packaged Vagrant box that provides you a wonderful development environment without requiring you to install Ruby, a web server, and any other server software on your local machine. No more worrying about messing up your operating system! Vagrant boxes are completely disposable. If something goes wrong, you can destroy and re-create the box in minutes!
 
 Rubick runs on any Windows, Mac, or Linux system, and includes the Nginx web server, Ruby 2.4, MySQL, Postgres, Redis, Memcached, Node, and all of the other goodies you need to develop amazing Ruby applications.
 
