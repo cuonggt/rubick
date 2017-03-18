@@ -28,7 +28,7 @@ The Ruby on Rails local development environment. Thanks to [Laravel Homestead](h
 
 Rubick is a pre-packaged Vagrant box that provides you a wonderful development environment without requiring you to install Ruby, a web server, and any other server software on your local machine. No more worrying about messing up your operating system! Vagrant boxes are completely disposable. If something goes wrong, you can destroy and re-create the box in minutes!
 
-Rubick runs on any Windows, Mac, or Linux system, and includes the Nginx web server, Ruby 2.4, MySQL, Postgres, Redis, Memcached, Node, and all of the other goodies you need to develop amazing Ruby applications.
+Rubick runs on any Windows, Mac, or Linux system, and includes the Nginx web server, Ruby 2.4.0, MySQL, Postgres, Redis, Memcached, Node, and all of the other goodies you need to develop amazing Ruby applications.
 
 > If you are using Windows, you may need to enable hardware virtualization (VT-x). It can usually be enabled via your BIOS. If you are using Hyper-V on a UEFI system you may additionally need to disable Hyper-V in order to access VT-x.
 
@@ -37,7 +37,7 @@ Rubick runs on any Windows, Mac, or Linux system, and includes the Nginx web ser
 
 - Ubuntu 16.04
 - Git
-- Ruby 2.4
+- Ruby 2.4.0
 - Rails 5.0.1
 - Nginx
 - MySQL
@@ -163,7 +163,7 @@ If you prefer to use MariaDB instead of MySQL, you may add the `mariadb` option 
 <a name="quickstart-your-rails-applications"></a>
 ### Quickstart Your Rails Applications
 
-To start Rails built-in web sever WEBrick, you may use the `bin/rails server -b 0.0.0.0` command. Once you have started the Rails built-in web server, you can access the site via your web browser:
+To start Rails built-in web sever [Puma](https://github.com/puma/puma), you may use the `bin/rails server -b 0.0.0.0` command. Once you have started the Rails built-in web server, you can access the site via your web browser:
 
     http://localhost:3000
 
