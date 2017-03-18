@@ -9,6 +9,7 @@ The official Ruby on Rails local development environment. Thanks to [Laravel Hom
     - [Launching The Vagrant Box](#launching-the-vagrant-box)
     - [Installing MariaDB](#installing-mariadb)
 - [Daily Usage](#daily-usage)
+    - [Quickstart Your Rails Applications](#quickstart-your-rails-applications)
     - [Accessing Rubick Globally](#accessing-rubick-globally)
     - [Connecting Via SSH](#connecting-via-ssh)
     - [Connecting To Databases](#connecting-to-databases)
@@ -158,6 +159,13 @@ If you prefer to use MariaDB instead of MySQL, you may add the `mariadb` option 
 
 <a name="daily-usage"></a>
 ## Daily Usage
+
+<a name="quickstart-your-rails-applications"></a>
+### Quickstart Your Rails Applications
+
+To start Rails built-in web sever WEBrick, you may use the `bin/rails server -b 0.0.0.0` command. Once you have started the Rails built-in web server, you can access the site via your web browser:
+
+    http://localhost:3000
 
 <a name="accessing-rubick-globally"></a>
 ### Accessing Rubick Globally

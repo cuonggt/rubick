@@ -58,7 +58,8 @@ class Rubick
             443 => 44300,
             3306 => 33060,
             5432 => 54320,
-            8025 => 8025
+            8025 => 8025,
+            3000 => 3000
         }
 
         # Use Default Port Forwarding Unless Overridden
