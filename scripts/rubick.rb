@@ -15,11 +15,11 @@ class Rubick
         # Configure The Box
         config.vm.define settings["name"] ||= "rubick"
         config.vm.box = settings["box"] ||= "cuonggt/rubick"
-        config.vm.box_version = settings["version"] ||= ">= 0.1.0"
+        config.vm.box_version = settings["version"] ||= ">= 0.2.0"
         config.vm.hostname = settings["hostname"] ||= "rubick"
 
         # Configure A Private Network IP
-        config.vm.network :private_network, ip: settings["ip"] ||= "192.168.10.10"
+        config.vm.network :private_network, ip: settings["ip"] ||= "192.168.79.86"
 
         # Configure Additional Networks
         if settings.has_key?("networks")

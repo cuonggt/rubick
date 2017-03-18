@@ -132,7 +132,7 @@ If you change the `sites` property after provisioning the Rubick box, you should
 
 You must add the "domains" for your Nginx sites to the `hosts` file on your machine. The `hosts` file will redirect requests for your Rubick sites into your Rubick machine. On Mac and Linux, this file is located at `/etc/hosts`. On Windows, it is located at `C:\Windows\System32\drivers\etc\hosts`. The lines you add to this file will look like the following:
 
-    192.168.10.10  rubick.app
+    192.168.79.86  rubick.app
 
 Make sure the IP address listed is the one set in your `Rubick.yaml` file. Once you have added the domain to your `hosts` file and launched the Vagrant box you will be able to access the site via your web browser:
 
@@ -226,8 +226,8 @@ Once your Rubick environment is provisioned and running, you may want to add add
 
 If Vagrant is not automatically managing your "hosts" file, you may need to add the new site to that file as well:
 
-    192.168.10.10  rubick.app
-    192.168.10.10  another.app
+    192.168.79.86  rubick.app
+    192.168.79.86  another.app
 
 Once the site has been added, run the `vagrant reload --provision` command from your Rubick directory.
 
