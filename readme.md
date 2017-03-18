@@ -242,6 +242,7 @@ By default, the following ports are forwarded to your Rubick environment:
 - **MySQL:** 33060 &rarr; Forwards To 3306
 - **Postgres:** 54320 &rarr; Forwards To 5432
 - **Mailhog:** 8025 &rarr; Forwards To 8025
+- **Rails:** 3000 &rarr; Forwards To 3000
 
 #### Forwarding Additional Ports
 
