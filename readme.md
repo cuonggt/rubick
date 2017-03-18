@@ -40,11 +40,11 @@ Rubick runs on any Windows, Mac, or Linux system, and includes the Nginx web ser
 - Ruby 2.4.0
 - Rails 5.0.1
 - Nginx
+- [Phusion Passenger](https://github.com/phusion/passenger)
 - MySQL
 - MariaDB
 - Sqlite3
 - Postgres
-- Composer
 - Node (With Yarn and Gulp)
 - Redis
 - Memcached
