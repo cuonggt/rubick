@@ -120,11 +120,11 @@ You may also pass any options supported by Vagrant's [Synced Folders](https://ww
 
 #### Configuring Nginx Sites
 
-Not familiar with Nginx? No problem. The `sites` property allows you to easily map a "domain" to a folder on your Rubick environment. A sample site configuration is included in the `Rubick.yaml` file. Again, you may add as many sites to your Rubick environment as necessary. Rubick can serve as a convenient, virtualized environment for every Ruby or Rails project you are working on:
+Not familiar with Nginx? No problem. The `sites` property allows you to easily map a "domain" to a folder on your Rubick environment. A sample site configuration is included in the `Rubick.yaml` file. Again, you may add as many sites to your Rubick environment as necessary. Rubick can serve as a convenient, virtualized environment for every Rails project you are working on:
 
     sites:
         - map: rubick.app
-          to: /home/vagrant/Code/Rails
+          to: /home/vagrant/Code/Rails/public
 
 If you change the `sites` property after provisioning the Rubick box, you should re-run `vagrant reload --provision`  to update the Nginx configuration on the virtual machine.
 
