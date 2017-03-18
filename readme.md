@@ -38,7 +38,7 @@ Rubick runs on any Windows, Mac, or Linux system, and includes the Nginx web ser
 - Ubuntu 16.04
 - Git
 - Ruby 2.4.0
-- Rails 5.0.1
+- Rails 5
 - Nginx
 - [Phusion Passenger](https://github.com/phusion/passenger)
 - MySQL
